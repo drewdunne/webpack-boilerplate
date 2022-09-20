@@ -1,8 +1,10 @@
-import generateJoke from "../../React Webpack Template/src/generateJoke";
+import React from 'react'
+import { render } from 'react-dom';
 import './styles/main.scss'
-import laughing from './assets/laughing.svg'
+import App from './App.jsx'
+import catTyping from './assets/typing.gif'
 
-const laughImg = document.getElementById('laughImg');
-laughImg.src = laughing;
+const catGif = document.getElementById('headerImg')
+catGif.src = catTyping
 
-console.log(generateJoke());
+render(<App />,  document.getElementById('app'));

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-$primary-color: #2fa8cc;
+$primary-color: #cc2faf59;
 $secondary-color: #f4f4f4;
 $box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
 
@@ -31,6 +31,9 @@ body {
   width: 800px;
 }
 
+h1 {
+  font-size: 4vw;
+}
 h3 {
   margin: 0;
   opacity: 0.5;
@@ -38,7 +41,7 @@ h3 {
 }
 
 img {
-  width: 100px;
+  width: 500px;
   margin-bottom: 20px;
 }
 
