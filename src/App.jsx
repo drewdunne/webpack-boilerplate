@@ -5,7 +5,7 @@ class App extends React.Component
     render() {
         console.log("Rendering App")
         return (
-            <h1>Hello World</h1>
+            <h1>Coding In Progress</h1>
         )
     }
 }

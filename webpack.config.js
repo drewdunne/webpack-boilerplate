@@ -53,7 +53,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Webpack App', // This is referenced in template.html and auto-inserted when we build
+            title: 'Andrew\'s Page', // This is referenced in template.html and auto-inserted when we build
             filename: 'index.html',
             template: 'src/template.html',
         }),

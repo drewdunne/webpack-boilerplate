@@ -7,4 +7,4 @@ import catTyping from './assets/typing.gif'
 const catGif = document.getElementById('headerImg')
 catGif.src = catTyping
 
-render(<App />,  document.getElementById('app'));
+render(<App />,  document.getElementById('header'));
