@@ -7,7 +7,6 @@ const PORT = 8080;
 app.use(cors({origin: 'http://localhost:3000'}));
 
 app.get('/', (req, res) => {
-    console.log("Received a request!")
     res.statusCode = 200;
     return res.json({title: 'Coding in Progress'});
 })

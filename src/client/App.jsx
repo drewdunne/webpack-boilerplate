@@ -17,8 +17,6 @@ class App extends React.Component
     }
 
     componentDidMount() {
-        console.log("Sending a request!")
-
         fetch('http://localhost:8080', {
             headers: {'Content-Type': 'application/json' },
         })
