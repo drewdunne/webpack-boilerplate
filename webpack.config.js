@@ -5,7 +5,7 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
 module.exports = {
     mode: 'development',
     entry: {
-        bundle: path.resolve(__dirname, 'src/index.js')
+        bundle: path.resolve(__dirname, 'src/client/index.js')
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -55,7 +55,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             title: 'Andrew\'s Page', // This is referenced in template.html and auto-inserted when we build
             filename: 'index.html',
-            template: 'src/template.html',
+            template: 'src/client/template.html',
         }),
         new BundleAnalyzerPlugin()
     ],
